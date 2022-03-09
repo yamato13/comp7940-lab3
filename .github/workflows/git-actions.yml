@@ -20,5 +20,5 @@ jobs:  								#  gather all the jobs that run in the workflow
            cat requirements.txt 
 
       - name: Security vulnerabilities scan
-        uses: aufdenpunkt/python-safety-check@main
+        uses: aufdenpunkt/python-safety-check@master
 
