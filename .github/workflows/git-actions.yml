@@ -16,3 +16,6 @@ jobs:  								# gather all the jobs that run in the workflow
            echo 'Viewing the file: '   
            cat requirements.txt 
 
+      - name: Security vulnerabilities scan
+        uses: aufdenpunkt/python-safety-check@master
+
